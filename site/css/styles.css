@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	margin: 0 ;
+	padding: 0 ;
+}
+
+body{
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+/* HEADER */
+.navbar{
+	background-color: #9C9A9C;
+}
+.navbar-header button.navbar-toggle, .icon-bar {
+  border: 2px solid black;
+  background-color: #9C9A9C;
+}
+.navbar-header:hover button.navbar-toggle:hover  {
+  border: 2px solid black;
+  background-color: white;
+}
+.navbar-header:active button.navbar-toggle:active {
+  border: 2px solid white;
+  background-color: #9C9A9C;
+}
+.navbar-header:focus button.navbar-toggle:focus  {
+  border: 2px solid red;
+  background-color: red;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #9C9A9C;
+}
+.boton-menu:hover, #boton-menu:active, #boton-menu:focus{
+	background-color: #9C9A9C;
+	border: 1px solid white;	
+}
+ul{
+	padding-top: 2px;
+	padding-bottom: 2px;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid black;
+}
+li{
+	border: 1px solid black;
+	text-decoration: none;		
+	background-color: white;
+}
+li:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #9C9A9C;
+}
+li.active{
+	color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+    color: black;
+    background-color: white;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+	color: white;
+	background-color: #9C9A9C;
+}
+.navbar-nav{
+	padding-top: 0px;
+	padding-bottom: 0px;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#menu-item{
+	color:black;
+	font-weight: bold;
+	font-size: 2.50em;
+
+}
+#menu-item:hover{
+	color:white;
+}
+#empresa{
+	font-weight: bold;
+	color: black;
+}
+/* END HEADER */
+
+/* MAIN */
+h1{
+	font-size: 2.50em;
+}
+h2{
+   background-color: #9C9A9C;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   margin-bottom: 0px;
+   font-size: 2em;
+}
+p{
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #9C9A9C;
+	font-size: 1.5em;
+}
+.celda{
+	padding: 10px;
+}
+/* END MAIN */
